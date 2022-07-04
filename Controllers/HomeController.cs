@@ -7,6 +7,7 @@ namespace CodeSecurityTests.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private const string ConnectionString = "Data Source=10.254.98.101; Initial Catalog=securityDB; User Id=sa; Password=hugytr45";
 
         public HomeController(ILogger<HomeController> logger)
         {
