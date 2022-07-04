@@ -15,10 +15,10 @@ namespace CodeSecurityTests.Controllers
 
         public IActionResult Index()
         {
-            var usuario = new Usuario
+            var user = new User
             {
                 Login = "bertuzziTeste",
-                Senha = "YUEIYAjhas1"
+                Password = "YUEIYAjhas1"
             };
 
             return View();
