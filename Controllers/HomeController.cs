@@ -8,6 +8,7 @@ namespace CodeSecurityTests.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private const string ConnectionString = "Data Source=10.254.98.101; Initial Catalog=securityDB; User Id=sa; Password=hugytr45";
+        private const string mongo_uri = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -28,6 +29,9 @@ namespace CodeSecurityTests.Controllers
         public IActionResult Privacy()
         {
             return View();
+
+            //AWS Key comentada
+            //var = aws_lib.connect("AKIAF6BAFJKR45SAWSZ5", "hjshnk5ex5u34565AWS654/JKGjhz545d89sjkja")
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
