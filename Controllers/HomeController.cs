@@ -15,6 +15,12 @@ namespace CodeSecurityTests.Controllers
 
         public IActionResult Index()
         {
+            var usuario = new Usuario
+            {
+                Login = "bertuzziTeste",
+                Senha = "YUEIYAjhas1"
+            };
+
             return View();
         }
 
