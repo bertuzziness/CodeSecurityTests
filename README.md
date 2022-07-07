@@ -2,7 +2,7 @@
 
 Test repository for code analysis
 
-Code Coverage, Security and Secrets tools configured:
+Repository with bugs in .net code for security testing tools security for Code Coverage, Security and Secrets tools configured:
 
 * [SonarCloud](sonarcloud.io)
 * [GitGuardian](gitguardian.com)
